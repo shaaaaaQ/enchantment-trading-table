@@ -176,7 +176,7 @@
     {
         "item": "anything",
         "name": "消滅の呪い",
-        "max": 3,
+        "max": 1,
         "treasure": true
     },
     {
