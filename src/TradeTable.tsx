@@ -14,7 +14,7 @@ const cheapestPrices = [5, 8, 11, 14, 17]
 
 const romanNumerals = ["I", "II", "III", "IV", "V"]
 
-const pricesAtom = withImmer(atomWithStorage<Record<string, number>>("enchantment-trade::price", {}))
+const pricesAtom = withImmer(atomWithStorage<Record<string, number>>("enchantment-trading-table::prices", {}))
 
 function Item({ enchantment }: { enchantment: Enchantment }) {
     const [prices, setPrices] = useAtom(pricesAtom)
