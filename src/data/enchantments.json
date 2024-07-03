@@ -1,0 +1,236 @@
+[
+    {
+        "item": "armor",
+        "name": "ダメージ軽減",
+        "max": 4,
+        "treasure": false
+    },
+    {
+        "item": "armor",
+        "name": "火炎耐性",
+        "max": 4,
+        "treasure": false
+    },
+    {
+        "item": "armor",
+        "name": "落下耐性",
+        "max": 4,
+        "treasure": false
+    },
+    {
+        "item": "armor",
+        "name": "爆発耐性",
+        "max": 4,
+        "treasure": false
+    },
+    {
+        "item": "armor",
+        "name": "飛び道具耐性",
+        "max": 4,
+        "treasure": false
+    },
+    {
+        "item": "armor",
+        "name": "水中呼吸",
+        "max": 3,
+        "treasure": false
+    },
+    {
+        "item": "armor",
+        "name": "水中採掘",
+        "max": 1,
+        "treasure": false
+    },
+    {
+        "item": "armor",
+        "name": "棘の鎧",
+        "max": 3,
+        "treasure": false
+    },
+    {
+        "item": "armor",
+        "name": "水中歩行",
+        "max": 3,
+        "treasure": false
+    },
+    {
+        "item": "armor",
+        "name": "氷渡り",
+        "max": 2,
+        "treasure": true
+    },
+    {
+        "item": "armor",
+        "name": "束縛の呪い",
+        "max": 1,
+        "treasure": true
+    },
+    {
+        "item": "sword",
+        "name": "ダメージ増加",
+        "max": 5,
+        "treasure": false
+    },
+    {
+        "item": "sword",
+        "name": "アンデッド特効",
+        "max": 5,
+        "treasure": false
+    },
+    {
+        "item": "sword",
+        "name": "虫特効",
+        "max": 5,
+        "treasure": false
+    },
+    {
+        "item": "sword",
+        "name": "ノックバック",
+        "max": 2,
+        "treasure": false
+    },
+    {
+        "item": "sword",
+        "name": "火属性",
+        "max": 2,
+        "treasure": false
+    },
+    {
+        "item": "sword",
+        "name": "ドロップ増加",
+        "max": 3,
+        "treasure": false
+    },
+    {
+        "item": "sword",
+        "name": "範囲ダメージ増加",
+        "max": 3,
+        "treasure": false
+    },
+    {
+        "item": "bow",
+        "name": "射撃ダメージ増加",
+        "max": 5,
+        "treasure": false
+    },
+    {
+        "item": "bow",
+        "name": "パンチ",
+        "max": 2,
+        "treasure": false
+    },
+    {
+        "item": "bow",
+        "name": "フレイム",
+        "max": 1,
+        "treasure": false
+    },
+    {
+        "item": "bow",
+        "name": "無限",
+        "max": 1,
+        "treasure": false
+    },
+    {
+        "item": "tool",
+        "name": "効率強化",
+        "max": 5,
+        "treasure": false
+    },
+    {
+        "item": "tool",
+        "name": "シルクタッチ",
+        "max": 1,
+        "treasure": false
+    },
+    {
+        "item": "tool",
+        "name": "幸運",
+        "max": 3,
+        "treasure": false
+    },
+    {
+        "item": "fishing-rod",
+        "name": "宝釣り",
+        "max": 3,
+        "treasure": false
+    },
+    {
+        "item": "fishing-rod",
+        "name": "入れ食い",
+        "max": 3,
+        "treasure": false
+    },
+    {
+        "item": "anything",
+        "name": "耐久力",
+        "max": 3,
+        "treasure": false
+    },
+    {
+        "item": "anything",
+        "name": "修繕",
+        "max": 1,
+        "treasure": true
+    },
+    {
+        "item": "anything",
+        "name": "消滅の呪い",
+        "max": 3,
+        "treasure": true
+    },
+    {
+        "item": "trident",
+        "name": "召雷",
+        "max": 1,
+        "treasure": false
+    },
+    {
+        "item": "trident",
+        "name": "水生特効",
+        "max": 5,
+        "treasure": false
+    },
+    {
+        "item": "trident",
+        "name": "忠誠",
+        "max": 3,
+        "treasure": false
+    },
+    {
+        "item": "trident",
+        "name": "激流",
+        "max": 3,
+        "treasure": false
+    },
+    {
+        "item": "crossbow",
+        "name": "拡散",
+        "max": 1,
+        "treasure": false
+    },
+    {
+        "item": "crossbow",
+        "name": "貫通",
+        "max": 4,
+        "treasure": false
+    },
+    {
+        "item": "crossbow",
+        "name": "高速装填",
+        "max": 3,
+        "treasure": false
+    },
+    {
+        "item": "mace",
+        "name": "重撃",
+        "max": 5,
+        "treasure": false
+    },
+    {
+        "item": "mace",
+        "name": "防具貫通",
+        "max": 4,
+        "treasure": false
+    }
+]
