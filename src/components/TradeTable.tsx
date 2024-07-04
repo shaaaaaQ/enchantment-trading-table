@@ -1,5 +1,5 @@
 import { atomWithStorage } from "jotai/utils"
-import enchantments from "./data/enchantments.json"
+import enchantments from "..//data/enchantments.json"
 import { withImmer } from "jotai-immer"
 import { useAtom } from "jotai"
 
