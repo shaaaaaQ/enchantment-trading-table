@@ -1,6 +1,8 @@
 import { ReactNode } from "react";
 import ReactModal from "react-modal"
 
+ReactModal.setAppElement(document.getElementById('root')!);
+
 const modalStyles = {
     content: {
         top: '0',
@@ -9,7 +11,8 @@ const modalStyles = {
         bottom: '0',
         margin: 'auto',
         width: "fit-content",
-        height: "fit-content"
+        height: "fit-content",
+        padding: "none"
     },
 };
 
