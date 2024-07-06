@@ -17,7 +17,14 @@ function ImportModal({ isOpen, onRequestClose }: { isOpen: boolean, onRequestClo
                 Import
             </div>
             <div className="p-5 flex gap-3">
-                <input type="text" className="border-2 border-solid border-gray-500 rounded-md p-2" value={value} onChange={(e) => setValue(e.currentTarget.value)} onFocus={(e) => e.target.select()} />
+                <input
+                    type="text"
+                    className="border-2 border-solid border-gray-500 rounded-md p-2"
+                    value={value}
+                    onChange={(e) => setValue(e.currentTarget.value)}
+                    onFocus={(e) => e.target.select()}
+                    placeholder='ここに貼り付け'
+                />
                 <Button onClick={() => {
                     setPrices(JSON.parse(value))
                     onRequestClose()

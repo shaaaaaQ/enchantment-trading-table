@@ -14,7 +14,13 @@ function ExportModal({ isOpen, onRequestClose }: { isOpen: boolean, onRequestClo
                 Export
             </div>
             <div className="p-5 flex gap-3">
-                <input type="text" className="border-2 border-solid border-gray-500 rounded-md p-2" value={JSON.stringify(prices)} onFocus={(e) => e.target.select()} readOnly />
+                <input
+                    type="text"
+                    className="border-2 border-solid border-gray-500 rounded-md p-2"
+                    value={JSON.stringify(prices)}
+                    onFocus={(e) => e.target.select()}
+                    readOnly
+                />
                 <Button onClick={() => navigator.clipboard.writeText(JSON.stringify(prices))}>
                     Copy
                 </Button>
