@@ -1,7 +1,6 @@
-import { atomWithStorage } from "jotai/utils"
-import enchantments from "./data/enchantments.json"
-import { withImmer } from "jotai-immer"
+import enchantments from "..//data/enchantments.json"
 import { useAtom } from "jotai"
+import { pricesAtom } from "../atoms"
 
 type Enchantment = {
     item: string
@@ -13,8 +12,6 @@ type Enchantment = {
 const cheapestPrices = [5, 8, 11, 14, 17]
 
 const romanNumerals = ["I", "II", "III", "IV", "V"]
-
-const pricesAtom = withImmer(atomWithStorage<Record<string, number>>("enchantment-trading-table::prices", {}))
 
 function Item({ enchantment }: { enchantment: Enchantment }) {
     const [prices, setPrices] = useAtom(pricesAtom)
